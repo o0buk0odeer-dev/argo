@@ -1,0 +1,60 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { color-scheme: light dark; }
+  body { max-width: 42rem; margin: 0 auto; padding: 2rem 1rem 4rem;
+         font-family: system-ui, "Hiragino Sans", "Noto Sans JP", sans-serif;
+         line-height: 1.9; }
+  h1 { font-size: 1.5rem; border-bottom: 2px solid currentColor; padding-bottom: .4rem; }
+  h2 { font-size: 1.1rem; margin-top: 2.2rem; }
+  nav { margin: 1.5rem 0 2.5rem; font-size: .9rem; }
+  nav a { margin-right: 1rem; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid currentColor;
+           font-size: .85rem; opacity: .8; }
+  code { background: rgba(127,127,127,.18); padding: .1em .35em; border-radius: .25em; }
+  .date { font-size: .9rem; opacity: .8; }
+</style><title>ARGO プライバシーポリシー</title></head><body>
+<h1>プライバシーポリシー</h1>
+<nav><a href="./">ホーム</a><a href="./privacy.html">プライバシーポリシー</a><a href="./terms.html">利用規約</a></nav>
+<p class="date">最終更新: 2026年9月21日</p>
+
+<p>ARGO は、作成者本人のパソコンの中だけで動くソフトウェアです。作成者以外の利用者はおらず、第三者の個人情報を取り扱うことはありません。</p>
+
+<h2>1. 取得する情報</h2>
+<p>Google の API を通じて、<strong>作成者本人が所有する YouTube チャンネル</strong>について次を取得します。</p>
+<ul>
+  <li>動画の基本情報（題名、公開日、長さ、説明文、タグ）</li>
+  <li>公開されている数値（再生数、高評価数、コメント数）</li>
+  <li>チャンネル所有者向けの分析値（日次の再生数、平均視聴時間、平均再生率、登録者の増減、流入元、サムネイルの表示回数とクリック率、視聴維持曲線）</li>
+</ul>
+<p>取得するのは作成者自身のチャンネルの情報だけです。他の利用者のアカウントへは一切アクセスしません。視聴者個人を特定できる情報は取得しません。Google から返されるのは集計済みの数値のみです。</p>
+
+<h2>2. 情報の保存場所</h2>
+<p>取得した情報はすべて、<strong>作成者のパソコンのローカルディスク上</strong>のデータベースファイルに保存されます。外部のサーバーへ送信したり、クラウドへ保管したりすることはありません。</p>
+
+<h2>3. 情報の利用目的</h2>
+<p>作成者が自分の動画制作を振り返り、次に作るものを判断するためにのみ利用します。それ以外の目的では利用しません。</p>
+
+<h2>4. 第三者への提供</h2>
+<p>Google の API から取得した情報を、第三者へ提供・販売・共有することは一切ありません。広告配信にも利用しません。</p>
+<p>なお ARGO には、インターネット上で公開されている動画やニュースの中から参考になりそうなものを選り分ける機能があり、この選り分けの判定のみ外部の AI サービス（Vercel AI Gateway）を利用します。ここへ送るのは<strong>誰でも閲覧できる公開情報</strong>（公開されている動画の題名、説明文の一部、投稿者名、URL、公開されている再生数など）だけです。<strong>Google の API から取得した情報、チャンネル所有者向けの分析値、認証情報は送信しません。</strong></p>
+
+<h2>5. 認証情報の取り扱い</h2>
+<p>Google の認可トークンは作成者のパソコン内のファイルにのみ保存され、外部へ送信されることはありません。保存先はソースコードの管理対象から除外しています。</p>
+
+<h2>6. Google のユーザーデータに関する方針の遵守</h2>
+<p>ARGO による Google API からの情報の利用および他アプリへの移転は、<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API サービスのユーザーデータに関するポリシー</a>（限定的な使用に関する要件を含む）に準拠します。</p>
+
+<h2>7. 保存期間と削除</h2>
+<p>データはローカルのデータベースファイルに蓄積されます。作成者はいつでもこのファイルを削除でき、削除すれば保存された情報は失われます。</p>
+
+<h2>8. アクセス権の取り消し</h2>
+<p>ARGO に与えた Google アカウントへのアクセス権は、<a href="https://myaccount.google.com/permissions">Google アカウントの「サードパーティ製のアプリとサービス」</a>からいつでも取り消せます。</p>
+
+<h2>9. 本ポリシーの変更</h2>
+<p>内容を変更した場合は、このページの最終更新日を改めます。</p>
+
+<h2>10. お問い合わせ</h2>
+<p>本ポリシーに関するお問い合わせは、ページ下部の連絡先までお願いします。</p>
+<footer>ARGO（個人利用のソフトウェア）／ 作成者: おぶこー<br>お問い合わせ: <a href="https://github.com/o0buk0odeer-dev/argo/issues">https://github.com/o0buk0odeer-dev/argo/issues</a></footer>
+</body></html>
