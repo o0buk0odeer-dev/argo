@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { color-scheme: light dark; }
+  body { max-width: 42rem; margin: 0 auto; padding: 2rem 1rem 4rem;
+         font-family: system-ui, "Hiragino Sans", "Noto Sans JP", sans-serif;
+         line-height: 1.9; }
+  h1 { font-size: 1.5rem; border-bottom: 2px solid currentColor; padding-bottom: .4rem; }
+  h2 { font-size: 1.1rem; margin-top: 2.2rem; }
+  nav { margin: 1.5rem 0 2.5rem; font-size: .9rem; }
+  nav a { margin-right: 1rem; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid currentColor;
+           font-size: .85rem; opacity: .8; }
+  code { background: rgba(127,127,127,.18); padding: .1em .35em; border-radius: .25em; }
+  .date { font-size: .9rem; opacity: .8; }
+</style><title>ARGO</title></head><body>
+<h1>ARGO</h1>
+<nav><a href="./">ホーム</a><a href="./privacy.html">プライバシーポリシー</a><a href="./terms.html">利用規約</a></nav>
+<p>ARGO は、個人の動画投稿者が<strong>自分自身の動画の成績を記録して振り返るため</strong>に作った、手元のパソコンで動くソフトウェアです。一般に配布しているものではなく、作成者本人だけが使っています。</p>
+
+<h2>何をするソフトウェアか</h2>
+<ul>
+  <li>作成者本人が所有する YouTube チャンネルの、公開値と分析値を毎日取得して保存します</li>
+  <li>あわせてニコニコ動画の公開値も取得します</li>
+  <li>手元の動画制作フォルダの状況（台本や書き出しファイルの有無）を棚卸しします</li>
+  <li>集めたものを一枚の状態レポートにまとめ、次に何を作るかの判断材料にします</li>
+</ul>
+
+<h2>使っている Google の機能</h2>
+<ul>
+  <li>YouTube Data API v3</li>
+  <li>YouTube Analytics API</li>
+  <li>YouTube Reporting API</li>
+</ul>
+<p>要求している権限は <code>youtube.readonly</code> と <code>yt-analytics.readonly</code> の2つだけで、どちらも<strong>読み取り専用</strong>です。動画の投稿・編集・削除は行いません。</p>
+
+<h2>動く場所</h2>
+<p>作成者のパソコンの中だけで動きます。サーバーは持っておらず、取得したデータを外部へ送る先もありません。詳しくは<a href="./privacy.html">プライバシーポリシー</a>をご覧ください。</p>
+<footer>ARGO（個人利用のソフトウェア）／ 作成者: おぶこー<br>お問い合わせ: <a href="https://github.com/o0buk0odeer-dev/argo/issues">https://github.com/o0buk0odeer-dev/argo/issues</a></footer>
+</body></html>
